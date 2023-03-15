@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - fangzhou-xie
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - fangzhou-xie/rethnicity
+  - fangzhou-xie/Randomuseragent
+  - fangzhou-xie/xutils
+  - fangzhou-xie/wigpy

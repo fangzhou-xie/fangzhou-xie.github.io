@@ -28,8 +28,10 @@
 
         <!-- Entry bib key -->
         <div id="{{entry.key}}" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">{{entry.title}}</div>
+        <!-- old Title -->
+        <!-- <div class="title">{{entry.title}}</div> --> 
+        <!-- new Title: with hyperlink by doi -->
+        <a href="https://doi.org/{{entry.doi}}">{{entry.title}}</a>
         <!-- Author -->
         <div class="author">
         {% assign author_array_size = entry.author_array | size %}

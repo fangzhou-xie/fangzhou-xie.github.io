@@ -3,7 +3,7 @@ group :jekyll_plugins do
     gem 'classifier-reborn'
     gem 'jekyll'
     gem 'jekyll-archives'
-    gem 'jekyll-diagrams'
+    # gem 'jekyll-diagrams'
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
     gem 'jekyll-imagemagick'
@@ -13,6 +13,7 @@ group :jekyll_plugins do
     gem 'jekyll-scholar'
     gem 'jekyll-sitemap'
     gem 'jekyll-twitter-plugin'
+    # gem 'jekyll-pdf-embed' # to embed pdf CV in page
     gem 'jemoji'
     gem 'mini_racer'
     gem 'unicode_utils'
