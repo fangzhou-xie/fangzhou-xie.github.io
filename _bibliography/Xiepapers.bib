@@ -11,8 +11,7 @@
   abstract = {Recent proposal of Wasserstein Index Generation model (WIG) has shown a new direction for automatically generating indices. However, it is challenging in practice to fit large datasets for two reasons. First, the Sinkhorn distance is notoriously expensive to compute and suffers from dimensionality severely. Second, it requires to compute a full \$N\textbackslash times N\$ matrix to be fit into memory, where \$N\$ is the dimension of vocabulary. When the dimensionality is too large, it is even impossible to compute at all. I hereby propose a Lasso-based shrinkage method to reduce dimensionality for the vocabulary as a pre-processing step prior to fitting the WIG model. After we get the word embedding from Word2Vec model, we could cluster these high-dimensional vectors by \$k\$-means clustering, and pick most frequent tokens within each cluster to form the "base vocabulary". Non-base tokens are then regressed on the vectors of base token to get a transformation weight and we could thus represent the whole vocabulary by only the "base tokens". This variant, called pruned WIG (pWIG), will enable us to shrink vocabulary dimension at will but could still achieve high accuracy. I also provide a \textbackslash textit\{wigpy\} module in Python to carry out computation in both flavor. Application to Economic Policy Uncertainty (EPU) index is showcased as comparison with existing methods of generating time-series sentiment indices.},
   archiveprefix = {arxiv},
   copyright = {All rights reserved},
-  keywords = {Computer Science - Computation and Language,Computer Science - Machine Learning,Economics - General Economics},
-  file = {/home/fangzhou/Zotero/storage/7LSJRH7G/Xie - 2020 - Pruned Wasserstein Index Generation Model and wigpy Package.pdf}
+  keywords = {Computer Science - Computation and Language,Computer Science - Machine Learning,Economics - General Economics}
 }
 
 @article{xie2020a,
@@ -32,9 +31,7 @@
   copyright = {All rights reserved},
   langid = {english},
   selected = {true},
-  keywords = {Economic Policy Uncertainty Index (EPU),Singular Value Decomposition (SVD),Wasserstein Dictionary Learning (WDL),Wasserstein Index Generation Model (WIG)},
-  file = {/home/fangzhou/Zotero/storage/NE9LD8IZ/Xie - 2020 - Wasserstein Index Generation Model Automatic generation of time-series index with application to Ec.pdf;/home/fangzhou/Zotero/storage/UBPWNZ9F/S0165176519304410.html},
-  abbr = {Econ. Lett.}
+  keywords = {Economic Policy Uncertainty Index (EPU),Singular Value Decomposition (SVD),Wasserstein Dictionary Learning (WDL),Wasserstein Index Generation Model (WIG)}
 }
 
 @article{xie2022,
@@ -54,7 +51,5 @@
   copyright = {All rights reserved},
   langid = {english},
   selected = {true},
-  keywords = {Ethnicity prediction,LSTM,R},
-  file = {/home/fangzhou/Zotero/storage/6Z7MINVL/Xie - 2022 - rethnicity An R package for predicting ethnicity .pdf;/home/fangzhou/Zotero/storage/ZUAL5B92/S2352711021001874.html},
-  abbr = {SoftwareX}
+  keywords = {Ethnicity prediction,LSTM,R}
 }
