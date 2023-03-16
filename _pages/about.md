@@ -23,6 +23,6 @@ Economics at Rutgers University.
 Previously, I did my M.A. at the Department of Economics at New York University.<br /><br />
 
 I am a fan of R/Rcpp/RcppEigen/RcppThread, and I am also a developer of R packages. 
-You can check out my packages <a href='repositories'>repositories</a><br /><br />
+You can check out my <a href='repositories'>repositories</a>.<br /><br />
 
 Email: [FIRSTNAME].[LASTNAME][at]rutgers.edu<br /><br />
