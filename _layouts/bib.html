@@ -28,23 +28,7 @@
           {%- if entry.archiveprefix == "arxiv" -%}
             <abbr class="badge">arXiv</abbr>
           {%- else -%}
-            {% assign journal_title_words = entry.journal | split: " " %}
-            {% assign journal_title_words_count = journal_title_words | size %}
-            {%- if journal_title_words_count > 1 -%}
-              {% assign journal_abbr = "" %}
-              {% for jw in journal_title_words %}
-                {% assign jwl = jw | downcase %}
-                {% assign jws = jw | truncate: 3 %}
-                {%- if jwl = "journal" -%}
-                  {% assign journal_abbr = journal_abbr | append: "J" %}
-                {%- else -%}
-                  {% assign journal_abbr = journal_abbr | append: jws %}
-                {%- endif -%}
-              {% endfor %}
-              <abbr class="badge">{{journal_abbr}}</abbr>
-            {%- else -%}
-              <abbr class="badge">{{entry.journal}}</abbr>
-            {%- endif -%}
+            <abbr class="badge">{{entry.journal}}</abbr>
           {%- endif -%}
         {%- endif -%}
         </div>
