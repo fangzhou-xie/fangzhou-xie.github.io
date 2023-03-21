@@ -40,17 +40,27 @@ layout: default
             {{ content }}
           </div>
 
+          <br />
           <!-- News -->
           {% if page.news -%}
             <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>
             {%- include news.html %}
           {%- endif %}
 
+          <br />
+          <!-- TODO: Recent blog -->
+          {% if page.news -%}
+          <h2><a href="{{ '/post/' | relative_url }}" style="color: inherit;">Recent Posts</a></h2>
+          {%- include recent_blog.html %}
+          {%- endif %}
+
+          <br />
           <!-- Selected papers -->
           {% if page.selected_papers -%}
             <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Selected publications</a></h2>
             {%- include selected_papers.html %}
           {%- endif %}
+          
 
           <!-- Social -->
           {%- if page.social %}
