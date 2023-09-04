@@ -3,6 +3,7 @@ layout: page
 permalink: /Repositories/
 title: Repositories
 description: Here are some information about my Github and some packages.
+  They may take a moment to show up.
 nav: true
 nav_order: 3
 ---
