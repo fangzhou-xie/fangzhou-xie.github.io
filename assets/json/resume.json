@@ -94,50 +94,18 @@
     "Economics Letters"
   ],
   "languages": [
-    [
-      {
-        "language": "Mandarin Chinese",
-        "fluency": "Native"
-      },
-      {
-        "language": "English",
-        "fluency": "Fluent"
-      },
-      {
-        "language": "German",
-        "fluency": "Intermediate"
-      }
-    ],
-    [
-      {
-        "language": "R",
-        "fluency": "Fluent"
-      },
-      {
-        "language": "Python",
-        "fluency": "Fluent"
-      },
-      {
-        "language": "Julia",
-        "fluency": "Fluent"
-      },
-      {
-        "language": "LaTeX",
-        "fluency": "Fluent"
-      },
-      {
-        "language": "C++",
-        "fluency": "Intermediate"
-      },
-      {
-        "language": "SQL (SQLite)",
-        "fluency": "Intermediate"
-      },
-      {
-        "language": "Bash",
-        "fluency": "Basic"
-      }
-    ]
+    {
+      "language": "Mandarin Chinese",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "German",
+      "fluency": "Intermediate"
+    }
   ],
   "awards": [
     {
