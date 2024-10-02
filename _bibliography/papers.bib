@@ -1,115 +1,60 @@
----
----
+-
+-
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@article{xie2020,
+  title         = {Pruned {{Wasserstein Index Generation Model}} and Wigpy {{Package}}},
+  author        = {Xie, Fangzhou},
+  year          = {2020},
+  month         = jul,
+  journal       = {arXiv:2004.00999 [cs, econ, q-fin]},
+  eprint        = {2004.00999},
+  primaryclass  = {cs, econ, q-fin},
+  url           = {http://arxiv.org/abs/2004.00999},
+  urldate       = {2020-07-27},
+  abstract      = {Recent proposal of Wasserstein Index Generation model (WIG) has shown a new direction for automatically generating indices. However, it is challenging in practice to fit large datasets for two reasons. First, the Sinkhorn distance is notoriously expensive to compute and suffers from dimensionality severely. Second, it requires to compute a full \$N\textbackslash times N\$ matrix to be fit into memory, where \$N\$ is the dimension of vocabulary. When the dimensionality is too large, it is even impossible to compute at all. I hereby propose a Lasso-based shrinkage method to reduce dimensionality for the vocabulary as a pre-processing step prior to fitting the WIG model. After we get the word embedding from Word2Vec model, we could cluster these high-dimensional vectors by \$k\$-means clustering, and pick most frequent tokens within each cluster to form the "base vocabulary". Non-base tokens are then regressed on the vectors of base token to get a transformation weight and we could thus represent the whole vocabulary by only the "base tokens". This variant, called pruned WIG (pWIG), will enable us to shrink vocabulary dimension at will but could still achieve high accuracy. I also provide a \textbackslash textit\{wigpy\} module in Python to carry out computation in both flavor. Application to Economic Policy Uncertainty (EPU) index is showcased as comparison with existing methods of generating time-series sentiment indices.},
+  archiveprefix = {arxiv},
+  copyright     = {All rights reserved},
+  keywords      = {Computer Science - Computation and Language,Computer Science - Machine Learning,Economics - General Economics}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{xie2020a,
+  title      = {Wasserstein {{Index Generation Model}}: {{Automatic}} Generation of Time-Series Index with Application to {{Economic Policy Uncertainty}}},
+  shorttitle = {Wasserstein {{Index Generation Model}}},
+  author     = {Xie, Fangzhou},
+  year       = {2020},
+  month      = jan,
+  journal    = {Economics Letters},
+  volume     = {186},
+  pages      = {108874},
+  issn       = {0165-1765},
+  doi        = {10.1016/j.econlet.2019.108874},
+  url        = {http://www.sciencedirect.com/science/article/pii/S0165176519304410},
+  urldate    = {2019-12-10},
+  abstract   = {I propose a novel method, the Wasserstein Index Generation model (WIG), to generate a public sentiment index automatically. To test the model's effectiveness, an application to generate Economic Policy Uncertainty (EPU) index is showcased.},
+  copyright  = {All rights reserved},
+  langid     = {english},
+  selected   = {true},
+  keywords   = {Economic Policy Uncertainty Index (EPU),Singular Value Decomposition (SVD),Wasserstein Dictionary Learning (WDL),Wasserstein Index Generation Model (WIG)},
+  abbr       = {Econ. Lett.}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@article{xie2022,
+  title      = {Rethnicity: {{An R}} Package for Predicting Ethnicity from Names},
+  shorttitle = {Rethnicity},
+  author     = {Xie, Fangzhou},
+  year       = {2022},
+  month      = jan,
+  journal    = {SoftwareX},
+  volume     = {17},
+  pages      = {100965},
+  issn       = {2352-7110},
+  doi        = {10.1016/j.softx.2021.100965},
+  url        = {https://www.sciencedirect.com/science/article/pii/S2352711021001874},
+  urldate    = {2022-01-06},
+  abstract   = {In this study, a new R package, rethnicity 11https://github.com/fangzhou-xie/rethnicity. It has also been published on [CRAN]. is provided for predicting ethnicity based on names. The Bidirectional Long Short-Term Memory (Bi-LSTM), a recurrent neural network architecture commonly used for natural language processing, was chosen as the model for our study. The Florida Voter Registration was used as the training and testing data. Special care was given for the accuracy of minority groups by adjusting the imbalance in the dataset. The models were trained and exported to C++ and then integrated with R using Rcpp. Additionally, the availability, accuracy, and performance of the package were compared with other solutions.},
+  copyright  = {All rights reserved},
+  langid     = {english},
+  selected   = {true},
+  keywords   = {Ethnicity prediction,LSTM,R},
+  abbr       = {SoftwareX}
 }

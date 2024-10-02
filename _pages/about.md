@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: about
 permalink: /
 subtitle: > #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
   Department of Economics, Rutgers University<br />
@@ -10,8 +10,7 @@ profile:
   align: right
   image: avatar.png
   image_circular: true # crops the image to make it circular
-  address: >
-    Apparently, my artist enjoys me debugging.
+  address: Apparently, my artist enjoys me debugging.
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
