@@ -1,10 +1,11 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+title: Repositories
+description: Here are some information about my Github and some packages.
+  They may take a moment to show up.
 nav: true
-nav_order: 4
+nav_order: 3
 ---
 
 {% if site.data.repositories.github_users %}
