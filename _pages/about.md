@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi, my name is Fangzhou Xie (谢方洲).
+Hi, my name is Fangzhou Xie.
 I am currently a Ph.D. Candidate at the Department of Economics at Rutgers University.
 Previously, I got my M.A. at the Department of Economics at New York University.<br /><br />
 
