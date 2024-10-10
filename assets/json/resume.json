@@ -41,20 +41,6 @@
       "icon": "/assets/img/UCSD.png"
     }
   ],
-  "interests": [
-    {
-      "name": "Economics"
-    },
-    {
-      "name": "Machine Learning"
-    },
-    {
-      "name": "Optimal Transport"
-    },
-    {
-      "name": "Natural Language Processing"
-    }
-  ],
   "publications": [
     {
       "name": "rethnicity: An R package for predicting ethnicity from names",
