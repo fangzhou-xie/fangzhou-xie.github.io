@@ -3,7 +3,6 @@ layout: about
 title: about
 permalink: /
 subtitle: > 
-  <a href='#'>Affiliations:</a><br />
   Department of Economics, Rutgers University<br />
   Center for Health Services Research, Rutgers University<br /><br /><br />
 
