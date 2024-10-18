@@ -2,10 +2,10 @@
 layout: about
 title: about
 permalink: /
-subtitle: > #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-  Affiliations:
+subtitle: > 
+  <a href='#'>Affiliations:</a><br />
   Department of Economics, Rutgers University<br />
-  Center for Health Services Research, Rutgers University<br /><br />
+  Center for Health Services Research, Rutgers University<br /><br /><br />
 
 profile:
   align: right
@@ -20,9 +20,9 @@ social: true # includes social icons at the bottom of the page
 
 Hi, my name is Fangzhou Xie.
 I am currently a Ph.D. Candidate at the Department of Economics at Rutgers University.
-Previously, I got my M.A. at the Department of Economics at New York University.<br /><br />
+Previously, I got my M.A. at the Department of Economics at New York University.<br />
 
 I am a fan of R/Rcpp/RcppEigen/RcppArmadillo/RcppThread, and I am also a developer of several R packages. 
-You can check out my [repositories](/repositories).
+You can check out my [repositories](/repositories).<br />
 
 **Email**: [FIRSTNAME].[LASTNAME][at]rutgers[dot]edu<br /><br />
