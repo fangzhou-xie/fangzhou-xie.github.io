@@ -10,7 +10,7 @@ profile:
   align: right
   image: avatar.png
   image_circular: true # crops the image to make it circular
-  # more_info: Apparently, my artist enjoys me debugging.
+  more_info: My codes are like poetry, pretty even if they are buggy.
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
