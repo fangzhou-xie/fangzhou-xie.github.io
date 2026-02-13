@@ -38,7 +38,12 @@
           <h6 class="title font-weight-bold ml-1 ml-md-4">
             <a href="{{ content.url }}">{{ content.studyType }}</a>
           </h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ content.institution }}</h6>
+          <div class="ml-1 ml-md-4" style="font-size: 0.95rem; display: flex; justify-content: space-between; align-items: center;">
+            <span>{{ content.institution }}</span>
+            {% if content.icon %}
+              <img src="{{ content.icon }}" alt="" style="height: 50px; width: auto; margin-left: 10px;">
+            {% endif %}
+          </div>
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ content.area }}</h6>
           <ul class="items">
             {% for item in content.courses %}
@@ -52,3 +57,5 @@
     </li>
   {% endfor %}
 </ul>
+
+<!-- add icon to the right of each education block. Credit: ChatGPT 4.o-->

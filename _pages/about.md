@@ -21,6 +21,11 @@ Hi, my name is Fangzhou Xie.
 I am currently a Ph.D. Candidate at the Department of Economics at Rutgers University.
 Previously, I got my M.A. at the Department of Economics at New York University.<br />
 
+Starting from 2026, I am serving as Associate Editors (AE) for the journals
+[*Software Impacts*](https://www-sciencedirect-com.proxy.libraries.rutgers.edu/journal/software-impacts/about/editorial-board)
+and
+[*Journal of Open Source Software*](https://joss.theoj.org/about).<br />
+
 I am a fan of R/Rcpp/RcppEigen/RcppArmadillo/RcppThread, and I am also a developer of several R packages. 
 You can check out my [repositories](/repositories) on Github.<br />
 

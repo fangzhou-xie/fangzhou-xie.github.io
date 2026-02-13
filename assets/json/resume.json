@@ -29,7 +29,8 @@
       "location": "Beijing, China",
       "studyType": "B.S., Economics",
       "startDate": "2013",
-      "endDate": "2017"
+      "endDate": "2017",
+      "icon": "/assets/img/CUEB.png"
     },
     {
       "institution": "University of California, San Diego",
@@ -37,20 +38,9 @@
       "url": "https://www.nyu.edu/",
       "studyType": "Visiting, Economics",
       "startDate": "2015",
-      "endDate": "2026",
+      "endDate": "2016",
       "icon": "/assets/img/UCSD.png"
     }
-  ],
-  "talks": [
-    {
-      "name": "Symposium on Gender and Race Attribution",
-      "publisher": "United States Patent and Trademark Office (USPTO)",
-      "releaseDate": "2022-08-26",
-      "summary": "Presented my work: rethnicity: An R package for predicting ethnicity from names."
-    }
-  ],
-  "referee": [
-    "Economics Letters"
   ],
   "languages": [
     {
