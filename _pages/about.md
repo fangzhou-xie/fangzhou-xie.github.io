@@ -8,9 +8,9 @@ subtitle: >
 
 profile:
   align: right
-  image: avatar.png
+  image: avatar_prof.jpg
   image_circular: true # crops the image to make it circular
-  more_info: My codes are like poetry, pretty even if they are buggy.
+  more_info: Photo courtesy of <a href="https://roniaviv.com/about">Roni Aviv</a>.
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -29,4 +29,4 @@ and
 I am a fan of R/Rcpp/RcppEigen/RcppArmadillo/RcppThread, and I am also a developer of several R packages. 
 You can check out my [repositories](/repositories) on Github.<br />
 
-**Email**: [FIRSTNAME].[LASTNAME][at]rutgers[dot]edu<br /><br />
+**Email**: [FIRSTNAME][dot][LASTNAME][at]rutgers[dot]edu<br /><br />
