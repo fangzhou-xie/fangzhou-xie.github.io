@@ -27,6 +27,8 @@ and
 [*Journal of Open Source Software*](https://joss.theoj.org/about).<br />
 
 I am a fan of R/Rcpp/RcppEigen/RcppArmadillo/RcppThread, and I am also a developer of several R packages. 
-You can check out my [repositories](/repositories) on Github.<br />
+You can check out my [repositories](/repositories) on Github.
+Most notably, I am the creator and maintainer of the widely-used
+[rethnicity package](https://github.com/fangzhou-xie/rethnicity).<br />
 
 **Email**: [FIRSTNAME][dot][LASTNAME][at]rutgers[dot]edu<br /><br />
