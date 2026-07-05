@@ -3,8 +3,10 @@ layout: about
 title: about
 permalink: /
 subtitle: > 
-  Department of Economics, Rutgers University<br />
-  Center for Health Services Research, Rutgers University<br /><br /><br />
+  PhD Candidate, Department of Economics, Rutgers University<br />
+  Research Assistant, Center for Health Services Research, Rutgers University<br />'
+  Associate Editor, Software Impacts<br />
+  Associate Editor, Journal of Open Source Software<br /><br /><br />
 
 profile:
   align: right
